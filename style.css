@@ -323,14 +323,14 @@ div#event-details p {
     -webkit-clip-path: polygon(0 0, 100% 0, 96.5% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 96.5% 100%, 0 100%);
 }
-.ad-text {
+.ad-stuff {
     padding: 0 30px;
 }
 .ad-logo img {
     max-width: 100px;
     margin-bottom: 20px;
 }
-.ad-text h4 {
+.ad-stuff h4 {
     color: #fff;
 }
 .ad .speaker {
