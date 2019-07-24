@@ -30,8 +30,6 @@ label.control-label {
     margin: 0 auto 20px;
 }
 .speaker {
-    padding: 30px;
-    border: 1px solid gray;
     margin: 20px auto;
 }
 body {
@@ -93,11 +91,50 @@ p.lead.text-center {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.speaker-header.row {
+    background: #252C43;
+}
+.headshot {
+    overflow: hidden;
+}
+.headshot img {
+    margin-bottom: -35%;
+}
+.speaker-header h3, .speaker-header p {
+    color: #fff;
+}
+.speaker-body {
+    padding: 20px 20px 0;
+}
+.speaker-header p {
+    opacity: 0.8;
+}
+.speaker .col-md-8 {
+    padding: 0 20px;
+}
 @media (max-width: 991px) {
 
 }
 @media screen and (max-width:767px) {
-
+	.speaker-header.row {
+		background: transparent;
+	}
+	.speaker-header h3, .speaker-header p {
+		color: #252C43;
+	}
+	.speaker-header p {
+		margin-bottom: 0;
+	}
+	.speaker-header .headshot {
+		margin-bottom: 15px;
+	}
+	.speaker-body {
+		padding: 15px 20px 0;
+	}
+	.headshot img {
+		margin-bottom: -40%;
+		margin-top: -10%;
+	}
 }
 @media screen and (max-width: 575px) {
 
@@ -170,48 +207,112 @@ p.lead.text-center {
 <p>Just look at the lineup of phenomenal speakers you’ll hear at this year’s Irrational Economic Summit...</p>
 
 <div class="speaker">
-	<h3 class="mb-0">Joseph Lubin</h3>
-	<p>ConsenSys, Founder</p>
-	<p>Joseph Lubin is a Co-Founder of Ethereum — the most superior advanced blockchain platform by size, functionality and application — and founder of ConsenSys, one of the largest and fastest-growing blockchain companies in the world.</p>
-	<p>Named to CoinDesk’s “Most Influential in Blockchain,” Joseph co-founded the Ethereum Project and founded ConsenSys as a venture production studio focused on building developer tools and decentralized applications on the Ethereum platform. Prior to working on Ethereum, Lubin’s career focused on the intersection of cryptography, engineering, and finance, including his role as VP of Technology in Private Wealth Management at Goldman Sachs.</p>
+	<div class="speaker-header row m-0">
+		<div class="headshot col-md-4 p-0 order-md-last">
+			<img src="https://csresearch.s3.amazonaws.com/TRI/2019/TRILive/joe-lubin-headshot-2019.png">
+		</div>
+		<div class="col-md-8 d-flex align-items-end">
+			<div>
+				<h3 class="mb-1">Joseph Lubin</h3>
+				<p>ConsenSys, Founder</p>
+			</div>
+		</div>
+	</div>
+	<div class="speaker-body">
+		<p>Joseph Lubin is a Co-Founder of Ethereum — the most superior advanced blockchain platform by size, functionality and application — and founder of ConsenSys, one of the largest and fastest-growing blockchain companies in the world.</p>
+		<p>Named to CoinDesk’s “Most Influential in Blockchain,” Joseph co-founded the Ethereum Project and founded ConsenSys as a venture production studio focused on building developer tools and decentralized applications on the Ethereum platform. Prior to working on Ethereum, Lubin’s career focused on the intersection of cryptography, engineering, and finance, including his role as VP of Technology in Private Wealth Management at Goldman Sachs.</p>
+	</div>
 </div>
 <div class="speaker">
-	<h3 class="mb-0">Adam O'Dell</h3>
-	<p>Chief Investment Strategist</p>
-	<p>As Chief Investment Strategist for Dent Research, Adam O’Dell has one purpose in mind: to find and bring to subscribers investment opportunities that return the maximum profit with minimum risk. He achieves this with his perfect blend of technical and fundamental analysis. Tactically, he does extensive back-testing and probability-based research. It’s the ultimate partner to the exhaustive research that Harry and Rodney do in the exciting realm of the new science of investing.</p>
-	<p>Adam has worked as a Prop Trader for a spot Forex firm. While there, he learned the fundamentals of trading in the world’s largest market. He excelled at trading the volatile currency markets by seeking out low-risk entry points for trades with high profit potential. Aiming to find the best opportunities across all asset classes, Adam expanded into the commodities, equities and futures markets.</p>
-	<p>An MBA graduate and Affiliate Member of the Market Technicians Association, Adam is a lifelong student of the markets. He is the editor of our hugely successful trading services, <em>Cycle 9 Alert</em> and <em>10X Profits</em>.</p>
+	<div class="speaker-header row m-0">
+		<div class="headshot col-md-4 p-0 order-md-last">
+			<img src="https://csresearch.s3.amazonaws.com/TRI/2019/TRILive/AdamHeadshot.jpg">
+		</div>
+		<div class="col-md-8 d-flex align-items-end">
+			<div>
+				<h3 class="mb-1">Adam O'Dell</h3>
+				<p>Chief Investment Strategist</p>
+			</div>
+		</div>
+	</div>
+	<div class="speaker-body">
+		<p>As Chief Investment Strategist for Dent Research, Adam O’Dell has one purpose in mind: to find and bring to subscribers investment opportunities that return the maximum profit with minimum risk. He achieves this with his perfect blend of technical and fundamental analysis. Tactically, he does extensive back-testing and probability-based research. It’s the ultimate partner to the exhaustive research that Harry and Rodney do in the exciting realm of the new science of investing.</p>
+		<p>Adam has worked as a Prop Trader for a spot Forex firm. While there, he learned the fundamentals of trading in the world’s largest market. He excelled at trading the volatile currency markets by seeking out low-risk entry points for trades with high profit potential. Aiming to find the best opportunities across all asset classes, Adam expanded into the commodities, equities and futures markets.</p>
+		<p>An MBA graduate and Affiliate Member of the Market Technicians Association, Adam is a lifelong student of the markets. He is the editor of our hugely successful trading services, <em>Cycle 9 Alert</em> and <em>10X Profits</em>.</p>
+	</div>
 </div>
 <div class="speaker">
-	<h3 class="mb-0">Charles Sizemore</h3>
-	<p>Income &amp; Retirement Strategist</p>
-	<p>Charles Lewis Sizemore, CFA specializes in finding value opportunities outside of the mainstream stock market. He is a frequent guest on CNBC, Bloomberg TV, Fox Business News and Straight Talk Money Radio, and has been quoted in <em>Barron’s Magazine</em>, <em>The Wall Street Journal</em>, and <em>The Washington Post</em>. He is a frequent contributor to Forbes, <em>GuruFocus</em>, <em>MarketWatch</em> and <em>InvestorPlace.com</em>.</p>
-	<p>Charles holds a master’s degree in Finance and Accounting from the London School of Economics in the United Kingdom and a Bachelor of Business Administration in Finance with an International Emphasis from Texas Christian University in Fort Worth, Texas, where he graduated Magna Cum Laude and as a Phi Beta Kappa scholar.</p>
-	<p>In addition, Charles is Executive Editor of our popular <em>Peak Income</em> and <em>Peak Profits</em> newsletters.</p>
+	<div class="speaker-header row m-0">
+		<div class="headshot col-md-4 p-0 order-md-last">
+			<img src="https://csresearch.s3.amazonaws.com/TRI/2019/TRILive/CharlesHeadshotNEW.jpg">
+		</div>
+		<div class="col-md-8 d-flex align-items-end">
+			<div>
+				<h3 class="mb-1">Charles Sizemore</h3>
+				<p>Income &amp; Retirement Strategist</p>
+			</div>
+		</div>
+	</div>
+	<div class="speaker-body">
+		<p>Charles Lewis Sizemore, CFA specializes in finding value opportunities outside of the mainstream stock market. He is a frequent guest on CNBC, Bloomberg TV, Fox Business News and Straight Talk Money Radio, and has been quoted in <em>Barron’s Magazine</em>, <em>The Wall Street Journal</em>, and <em>The Washington Post</em>. He is a frequent contributor to Forbes, <em>GuruFocus</em>, <em>MarketWatch</em> and <em>InvestorPlace.com</em>.</p>
+		<p>Charles holds a master’s degree in Finance and Accounting from the London School of Economics in the United Kingdom and a Bachelor of Business Administration in Finance with an International Emphasis from Texas Christian University in Fort Worth, Texas, where he graduated Magna Cum Laude and as a Phi Beta Kappa scholar.</p>
+		<p>In addition, Charles is Executive Editor of our popular <em>Peak Income</em> and <em>Peak Profits</em> newsletters.</p>
+	</div>
 </div>
 <div class="speaker">
-	<h3 class="mb-0">John Del Vecchio</h3>
-	<p>Forensic Accountant</p>
-	<p>Author of <em>Rule of 72: How to Compound Your Money and Uncover Hidden Stock Profits</em> and <em>What’s Behind The Numbers: A Guide To Exposing Financial Chicanery And Avoiding Huge Losses In Your Portfolio</em>, John is a forensic accountant at heart. Standing on the shoulders of the great David Tice, James O’Shaughnessy and Dr. Howard Schilit, he built a framework of algorithms and a multi-factor grading system that has made him one of the more successful short-sellers around. John graduated Summa Cum Laude from Bryant College with a B.S. in Finance and was awarded Beta Gamma Sigma honors. He earned the right to use the Chartered Financial Analyst designation in September 2001.</p>
-	<p>John is Executive Editor of our <em>Hidden Profits</em> newsletter and our trading service <em>Small Cap All-Stars</em>.</p>
+	<div class="speaker-header row m-0">
+		<div class="headshot col-md-4 p-0 order-md-last">
+			<img src="https://csresearch.s3.amazonaws.com/TRI/2019/TRILive/JohnHeadshot.jpg">
+		</div>
+		<div class="col-md-8 d-flex align-items-end">
+			<div>
+				<h3 class="mb-1">John Del Vecchio</h3>
+				<p>Forensic Accountant</p>
+			</div>
+		</div>
+	</div>
+	<div class="speaker-body">
+		<p>Author of <em>Rule of 72: How to Compound Your Money and Uncover Hidden Stock Profits</em> and <em>What’s Behind The Numbers: A Guide To Exposing Financial Chicanery And Avoiding Huge Losses In Your Portfolio</em>, John is a forensic accountant at heart. Standing on the shoulders of the great David Tice, James O’Shaughnessy and Dr. Howard Schilit, he built a framework of algorithms and a multi-factor grading system that has made him one of the more successful short-sellers around. John graduated Summa Cum Laude from Bryant College with a B.S. in Finance and was awarded Beta Gamma Sigma honors. He earned the right to use the Chartered Financial Analyst designation in September 2001.</p>
+		<p>John is Executive Editor of our <em>Hidden Profits</em> newsletter and our trading service <em>Small Cap All-Stars</em>.</p>
+	</div>
 </div>
 <div class="speaker">
-	<h3 class="mb-0">Lance Gaitan</h3>
-	<p>Senior Analyst</p>
-	<p>Lance Gaitan graduated from Franklin University in Columbus, OH with a degree in Finance. After graduating, Lance worked as an auditor for an insurance administrator and later attained his securities license and then went to work as a broker for a small firm.</p>
-	<p>In the mid-1990s Lance managed the futures trading desk for Piper Jaffray, a large regional brokerage firm based in Minneapolis.</p>
-	<p>After migrating to Florida in early 2000, Lance founded a futures trading firm, GSV Futures, specializing in retail commodity trading strategies. Lance sold that business in 2006 and joined Harry Dent, Jr. and Rodney Johnson at Dent Research shortly thereafter.</p>
-	<p>Lance is also the Executive Editor of our newest research advisory, <em>Treasury Profits Accelerator</em>.</p>
+	<div class="speaker-header row m-0">
+		<div class="headshot col-md-4 p-0 order-md-last">
+			<img src="https://csresearch.s3.amazonaws.com/TRI/2019/TRILive/LanceHeadshot.jpg">
+		</div>
+		<div class="col-md-8 d-flex align-items-end">
+			<div>
+				<h3 class="mb-1">Lance Gaitan</h3>
+				<p>Senior Analyst</p>
+			</div>
+		</div>
+	</div>
+	<div class="speaker-body">
+		<p>Lance Gaitan graduated from Franklin University in Columbus, OH with a degree in Finance. After graduating, Lance worked as an auditor for an insurance administrator and later attained his securities license and then went to work as a broker for a small firm.</p>
+		<p>In the mid-1990s Lance managed the futures trading desk for Piper Jaffray, a large regional brokerage firm based in Minneapolis.</p>
+		<p>After migrating to Florida in early 2000, Lance founded a futures trading firm, GSV Futures, specializing in retail commodity trading strategies. Lance sold that business in 2006 and joined Harry Dent, Jr. and Rodney Johnson at Dent Research shortly thereafter.</p>
+		<p>Lance is also the Executive Editor of our newest research advisory, <em>Treasury Profits Accelerator</em>.</p>
+	</div>
 </div>
 <div class="speaker">
-	<h3 class="mb-0">Lee Lowell</h3>
-	<p>Options Strategist</p>
-	<p>A former Wall Street insider and floor trader, Lee Lowell has worked in the market for nearly 30 years now. He began his options trading career in 1991 on the floor of the New York Mercantile Exchange (NYMEX) in New York City.</p>
-	<p>He traded in the Crude Oil and Natural Gas options and futures pits for both a small firm and then his own company. But in 1998, fed up with the high-stress trading pit life, he moved to the beautiful island of Kaua’i, Hawai’i, where he combined his exchange floor knowledge with the new frontier of computerized internet trading. Today Lee’s still involved in the markets–but this focus is on helping everyday people collect Instant Income windfalls of $40k a year or more. It’s his passion to show everyday folks that his strategy isn’t too complicated or too sophisticated to use…or profit from. As the newest member of the Dent Research team, it’s Lee Lowell’s ambition is to show readers the incredible potential behind this Instant Income secret. You can currently catch him writing every week in our new e-letter, <em>The Rich Investor</em>. He also recently launched our newest service, <em>Instant Income Alert</em>.</p>
+	<div class="speaker-header row m-0">
+		<div class="headshot col-md-4 p-0 order-md-last">
+			<img src="https://csresearch.s3.amazonaws.com/TRI/2019/TRILive/LeeHeadshot.jpg">
+		</div>
+		<div class="col-md-8 d-flex align-items-end">
+			<div>
+				<h3 class="mb-1">Lee Lowell</h3>
+				<p>Options Strategist</p>
+			</div>
+		</div>
+	</div>
+	<div class="speaker-body">
+		<p>A former Wall Street insider and floor trader, Lee Lowell has worked in the market for nearly 30 years now. He began his options trading career in 1991 on the floor of the New York Mercantile Exchange (NYMEX) in New York City.</p>
+		<p>He traded in the Crude Oil and Natural Gas options and futures pits for both a small firm and then his own company. But in 1998, fed up with the high-stress trading pit life, he moved to the beautiful island of Kaua’i, Hawai’i, where he combined his exchange floor knowledge with the new frontier of computerized internet trading. Today Lee’s still involved in the markets–but this focus is on helping everyday people collect Instant Income windfalls of $40k a year or more. It’s his passion to show everyday folks that his strategy isn’t too complicated or too sophisticated to use…or profit from. As the newest member of the Dent Research team, it’s Lee Lowell’s ambition is to show readers the incredible potential behind this Instant Income secret. You can currently catch him writing every week in our new e-letter, <em>The Rich Investor</em>. He also recently launched our newest service, <em>Instant Income Alert</em>.</p>
+	</div>
 </div>
-
-
-
+<hr>
 <p>If you’re ready to jump ahead and claim your exclusive access to the 2018 IES Livestream – and $300 in Dent Research Credit – click here now.</p>
 <h2>We’re on The Brink of Cataclysmic Events That Will Demand Your <u>Immediate</u> Action</h2>
 <p>Today, the stage is set for massive disruptions – in the economy… in politics… and in the financial markets…</p>
